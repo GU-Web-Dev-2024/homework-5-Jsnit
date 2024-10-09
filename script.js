@@ -1,6 +1,6 @@
 // List of artworks
 const initialArtworks = [
-    { title: 'Starry Night', artist: 'Vincent van Gogh', img: 'https://via.placeholder.com/200' },
+    { title: 'Starry Night', artist: 'Vincent van Gogh', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1200px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg' },
     { title: 'Mona Lisa', artist: 'Leonardo da Vinci', img: 'https://via.placeholder.com/200' },
     { title: 'The Persistence of Memory', artist: 'Salvador Dalí', img: 'https://via.placeholder.com/200' }
 ];
