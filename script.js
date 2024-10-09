@@ -1,21 +1,21 @@
 // List of artworks
 const initialArtworks = [
-    { title: 'Starry Night', artist: 'Vincent van Gogh', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1200px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg' },
-    { title: 'Mona Lisa', artist: 'Leonardo da Vinci', img: 'https://via.placeholder.com/200' },
-    { title: 'The Persistence of Memory', artist: 'Salvador Dalí', img: 'https://via.placeholder.com/200' }
+    { title: 'Starry Night', artist: 'Vincent van Gogh', img: 'images/Starry_Night.jpg' },
+    { title: 'Mona Lisa', artist: 'Leonardo da Vinci', img: 'images/Mona_Lisa.jpg' },
+    { title: 'The Persistence of Memory', artist: 'Salvador Dalí', img: 'images/the_persistence_of_memory.jpg' }
 ];
 
 const newArtworks = [
-    { title: 'The Scream', artist: 'Edvard Munch', img: 'https://via.placeholder.com/200' },
-    { title: 'Girl with a Pearl Earring', artist: 'Johannes Vermeer', img: 'https://via.placeholder.com/200' },
-    { title: 'The Birth of Venus', artist: 'Sandro Botticelli', img: 'https://via.placeholder.com/200' },
-    { title: 'The Night Watch', artist: 'Rembrandt van Rijn', img: 'https://via.placeholder.com/200' },
-    { title: 'The Kiss', artist: 'Gustav Klimt', img: 'https://via.placeholder.com/200' },
-    { title: 'American Gothic', artist: 'Grant Wood', img: 'https://via.placeholder.com/200' },
-    { title: 'Las Meninas', artist: 'Diego Velázquez', img: 'https://via.placeholder.com/200' },
-    { title: 'The Last Supper', artist: 'Leonardo da Vinci', img: 'https://via.placeholder.com/200' },
-    { title: 'Water Lilies', artist: 'Claude Monet', img: 'https://via.placeholder.com/200' },
-    { title: 'Starry Night Over the Rhône', artist: 'Vincent van Gogh', img: 'https://via.placeholder.com/200' }
+    { title: 'The Scream', artist: 'Edvard Munch', img: 'images/The_Scream.jpg' },
+    { title: 'Girl with a Pearl Earring', artist: 'Johannes Vermeer', img: 'images/girl_with_pearl_earring.jpeg' },
+    { title: 'The Birth of Venus', artist: 'Sandro Botticelli', img: 'images/Birth_of_Venus.jpg' },
+    { title: 'The Night Watch', artist: 'Rembrandt van Rijn', img: 'images/The_Night_Watch.jpg' },
+    { title: 'The Kiss', artist: 'Gustav Klimt', img: 'images/the_kiss.jpeg' },
+    { title: 'American Gothic', artist: 'Grant Wood', img: 'images/American_Gothic.jpg' },
+    { title: 'Las Meninas', artist: 'Diego Velázquez', img: 'images/las_meninas.jpeg' },
+    { title: 'The Last Supper', artist: 'Leonardo da Vinci', img: 'images/The_Last_Supper.jpg' },
+    { title: 'Water Lilies', artist: 'Claude Monet', img: 'images/Water_Lilies.jpg' },
+    { title: 'Starry Night Over the Rhône', artist: 'Vincent van Gogh', img: 'images/Starry_night_over_rhone.jpg' }
 ];
 
 // DOM element selections
