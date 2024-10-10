@@ -16,11 +16,15 @@ const newArtworks = [
     { title: 'The Last Supper', artist: 'Leonardo da Vinci', img: 'images/The_Last_Supper.jpg' },
     { title: 'Water Lilies', artist: 'Claude Monet', img: 'images/Water_Lilies.jpg' },
     { title: 'Starry Night Over the Rhône', artist: 'Vincent van Gogh', img: 'images/Starry_night_over_rhone.jpg' }
+    { title: 'Starry Night', artist: 'Vincent van Gogh', img: 'images/Starry_Night.jpg' },
+    { title: 'Mona Lisa', artist: 'Leonardo da Vinci', img: 'images/Mona_Lisa.jpg' },
+    { title: 'The Persistence of Memory', artist: 'Salvador Dalí', img: 'images/the_persistence_of_memory.jpg' }
 ];
 
 // DOM element selections
 const addArtButton = document.getElementById('add-art-button');
 const resetButton = document.getElementById('reset-button');
+// Selects the first & only .art-grid element
 const artGrid = document.querySelector('.art-grid');
 const counter = document.getElementById('counter');
 
@@ -33,33 +37,40 @@ function updateCounter() {
 
 // Function to handle artwork being clicked (viewed)
 function markAsViewed(event) {
+    // Reference the art panel, target of event listener
     const artPanel = event.currentTarget;
 
+    // Check if this panel has already been clicked
     if (!artPanel.classList.contains('viewed')) {
         artCounter++;
+        // Add 1 to view counter & mark as viewed
         updateCounter();
         artPanel.classList.add('viewed');
-        artPanel.style.backgroundColor = '#d0f0d0'; // Optional: change background to indicate viewed
+        artPanel.style.backgroundColor = '#d0f0d0'; //Change background to indicate viewed
     }
 }
 
 // Function to create and add a new art panel
 function createArtPanel(artwork) {
+    // Create artwork panel as a new div element 
     const artPanel = document.createElement('div');
+    // Set the class to the art panel div
     artPanel.classList.add('art-panel');
-
+    // Add image
     const img = document.createElement('img');
     img.src = artwork.img;
     img.alt = artwork.title;
-
+    // Add image description
     const p = document.createElement('p');
     p.textContent = `${artwork.title} by ${artwork.artist}`;
 
+    // Set the art-panel div elements
     artPanel.appendChild(img);
     artPanel.appendChild(p);
 
+    // Add event listener to art-panel div pointing to the markAsViewed() function
     artPanel.addEventListener('click', markAsViewed);
-
+    // Add art-panel div to the art-grid section
     artGrid.appendChild(artPanel);
 }
 
