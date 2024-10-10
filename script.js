@@ -70,7 +70,7 @@ function createArtPanel(artwork) {
 
     // Add event listener to art-panel div pointing to the markAsViewed() function
     artPanel.addEventListener('click', markAsViewed);
-    // Add art-panel div to the art-grid section
+    // Add art-panel div to the art-grid div
     artGrid.appendChild(artPanel);
 }
 
