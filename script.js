@@ -15,7 +15,7 @@ const newArtworks = [
     { title: 'Las Meninas', artist: 'Diego Velázquez', img: 'images/las_meninas.jpeg' },
     { title: 'The Last Supper', artist: 'Leonardo da Vinci', img: 'images/The_Last_Supper.jpg' },
     { title: 'Water Lilies', artist: 'Claude Monet', img: 'images/Water_Lilies.jpg' },
-    { title: 'Starry Night Over the Rhône', artist: 'Vincent van Gogh', img: 'images/Starry_night_over_rhone.jpg' }
+    { title: 'Starry Night Over the Rhône', artist: 'Vincent van Gogh', img: 'images/Starry_night_over_rhone.jpg' },
     { title: 'Starry Night', artist: 'Vincent van Gogh', img: 'images/Starry_Night.jpg' },
     { title: 'Mona Lisa', artist: 'Leonardo da Vinci', img: 'images/Mona_Lisa.jpg' },
     { title: 'The Persistence of Memory', artist: 'Salvador Dalí', img: 'images/the_persistence_of_memory.jpg' }
