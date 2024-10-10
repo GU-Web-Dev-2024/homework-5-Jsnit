@@ -76,7 +76,7 @@ function createArtPanel(artwork) {
 
 // Function to initialize the gallery with the first 3 artworks
 function initializeGallery() {
-    for (let i = 0; i < initialArtworks.length; i++) {
+    for (let i = 0; i < 3; i++) {
         createArtPanel(initialArtworks[i]);
     }
 }
@@ -102,4 +102,3 @@ resetButton.addEventListener('click', resetGallery);
 
 // Initialize gallery on page load
 initializeGallery();
-updateCounter();
